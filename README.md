@@ -15,12 +15,12 @@ Before installing Sitecore Engage, you need:
 
 ## Installation
 ```bash
-npm install @react-native/custom-sitecore-engage
+npm install react-native-custom-sitecore-engage
 ```
 
 ## Importing
 ```js
-import { init, initAppStore } from "@react-native/custom-sitecore-engage";
+import { init, initAppStore } from "react-native-custom-sitecore-engage";
 ```
 
 ## Usage
