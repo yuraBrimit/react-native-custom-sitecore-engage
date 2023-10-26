@@ -1,0 +1,20 @@
+{
+  "name": "react-native-custom-sitecore-engage",
+  "version": "1.0.0",
+  "description": "Cloned library for supporting react-native applications. All @sitecore/engage functionality stay as it is, but made some change s with (get/set) cookie properties",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuraBrimit/react-native-custom-sitecore-engage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./src/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/yuraBrimit/react-native-custom-sitecore-engage/issues"
+  },
+  "homepage": "https://github.com/yuraBrimit/react-native-custom-sitecore-engage#readme"
+}

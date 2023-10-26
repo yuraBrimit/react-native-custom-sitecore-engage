@@ -1,0 +1,47 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EventTypes = exports.EndPoint = exports.UTM_PREFIX = exports.API_VERSION = exports.DAILY_SECONDS = exports.DEFAULT_COOKIE_EXPIRY_DAYS = void 0;
+// © Sitecore Corporation A/S. All rights reserved. Sitecore® is a registered trademark of Sitecore Corporation A/S.
+exports.DEFAULT_COOKIE_EXPIRY_DAYS = 730;
+exports.DAILY_SECONDS = 86400;
+exports.API_VERSION = 'v1.2';
+exports.UTM_PREFIX = 'utm_';
+var EndPoint;
+(function (EndPoint) {
+    EndPoint["Events"] = "events";
+    EndPoint["Browser"] = "browser";
+    EndPoint["Batches"] = "batches";
+})(EndPoint = exports.EndPoint || (exports.EndPoint = {}));
+var EventTypes;
+(function (EventTypes) {
+    EventTypes["Add"] = "ADD";
+    EventTypes["AddConsumers"] = "ADD_CONSUMERS";
+    EventTypes["AddContacts"] = "ADD_CONTACTS";
+    EventTypes["AddProduct"] = "ADD_PRODUCT";
+    EventTypes["Calculator"] = "CALCULATOR";
+    EventTypes["CampaignTracking"] = "CAMPAIGN_TRACKING";
+    EventTypes["ClearCart"] = "CLEAR_CART";
+    EventTypes["Click"] = "CLICK";
+    EventTypes["Chat"] = "CHAT";
+    EventTypes["Checkout"] = "CHECKOUT";
+    EventTypes["Comment"] = "COMMENT";
+    EventTypes["Confirm"] = "CONFIRM";
+    EventTypes["ContactRequest"] = "CONTACT_REQUEST";
+    EventTypes["Consumers"] = "CONSUMERS";
+    EventTypes["Email"] = "EMAIL";
+    EventTypes["Login"] = "LOGIN";
+    EventTypes["Identity"] = "IDENTITY";
+    EventTypes["Notification"] = "NOTIFICATION";
+    EventTypes["OrderUpdate"] = "ORDER_UPDATE";
+    EventTypes["Payment"] = "PAYMENT";
+    EventTypes["Purchase"] = "PURCHASE";
+    EventTypes["PnrRecord"] = "PNR_RECORD";
+    EventTypes["Sms"] = "SMS";
+    EventTypes["Subscription"] = "SUBSCRIPTION";
+    EventTypes["Search"] = "SEARCH";
+    EventTypes["Select"] = "SELECT";
+    EventTypes["Trigger"] = "TRIGGER";
+    EventTypes["TripSummary"] = "TRIP_SUMMARY";
+    EventTypes["Update"] = "UPDATE";
+    EventTypes["View"] = "VIEW";
+})(EventTypes = exports.EventTypes || (exports.EventTypes = {}));
