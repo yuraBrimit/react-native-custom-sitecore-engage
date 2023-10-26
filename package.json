@@ -1,7 +1,7 @@
 {
   "name": "react-native-custom-sitecore-engage",
-  "version": "1.0.1",
-  "description": "Cloned library for supporting react-native applications. All @sitecore/engage functionality stay as it is, but made some change s with (get/set) cookie properties",
+  "version": "1.0.3",
+  "description": "Copied and modified for supporting React-native library @sitecore/engage.",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
