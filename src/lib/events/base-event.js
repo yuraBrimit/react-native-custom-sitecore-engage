@@ -34,7 +34,6 @@ class BaseEvent {
     static inferLanguage(languageParameter) {
         if (languageParameter)
             return languageParameter;
-        return 'EN';
     }
     /**
      * Infers the page attribute
@@ -44,7 +43,6 @@ class BaseEvent {
     static inferPageName(pageParameter) {
         if (pageParameter)
             return pageParameter;
-        return 'home';
     }
     /**
      * Creates the body of the request
