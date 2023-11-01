@@ -69,25 +69,9 @@ export default function App() {
 
 2. Reload your application. Every time your app init, a VIEW event is sent to Sitecore CDP.
 
-## Documentation for source library and community resources
+## Documentation for official source library and community resources
 
 - [Official JSS documentation](https://doc.sitecore.com/xp/en/developers/hd/201/sitecore-headless-development/sitecore-javascript-rendering-sdks--jss-.html)
 - [StackExchange](https://sitecore.stackexchange.com/)
 - [Community Slack](https://sitecorechat.slack.com/messages/jss)
 - [Sitecore Community Forum](https://community.sitecore.net/developers/f/40)
-
-## Contributions
-
-We are very grateful to the community for contributing bug fixes and improvements. We welcome all efforts to evolve and improve Sitecore Engage; read below to learn how to participate in those efforts.
-
-### [Code of Conduct](CODE_OF_CONDUCT.md)
-
-Sitecore has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
-
-### [Contributing Guide](CONTRIBUTING.md)
-
-Read our [contributing guide](CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes to React.
-
-### License
-
-Sitecore JavaScript Services is using the [Apache 2.0 license](LICENSE.MD).
