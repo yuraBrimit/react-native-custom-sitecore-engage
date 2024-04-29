@@ -1,6 +1,6 @@
 {
   "name": "react-native-custom-sitecore-engage",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Copied and modified for supporting React-native library @sitecore/engage.",
   "main": "./src/index.js",
   "scripts": {
