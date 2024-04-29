@@ -40,8 +40,9 @@ class CustomEvent extends base_event_1.BaseEvent {
         };
         if (Object.entries(extra).length > this.maxExtAttributes)
             throw new Error(`[IV-0005] This event supports maximum ${this.maxExtAttributes} attributes. Reduce the number of attributes.`);
-        if (Object.entries(extra).length !== 0)
-            this.cdpEventAttributes.ext = extra;
+        // if (Object.entries(extra).length !== 0)
+        //     this.cdpEventAttributes.ext = extra;
+        this.cdpEventAttributes = eventData;
     }
     /**
      * Checks if the provided type is not a reserved one. If it is, throws an error.
